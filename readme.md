@@ -7,7 +7,7 @@ Welcome to the Stellar Backgrounds repository! This project showcases a collecti
 This repository contains a simple HTML and CSS setup that demonstrates a beautiful moving background effect. The main focus is on creating visually appealing backgrounds that can be easily integrated into any website.
 
 ## Usage
-To see the background in action, visit the [live demo](https://cat-loaf.github.io/stellar-backgrounds/).
+To see the background in action, visit the [live demo](https://cat-loaf.github.io/stellar-backgrounds/){:target="_blank"}.
 
 Alternatively, you can clone the repository and open the `index.html` file in your web browser. The CSS file `style.css` contains all the necessary styles and animations to create the moving background effect.
 To see the background in action, simply open the `index.html` file in your web browser. The CSS file `style.css` contains all the necessary styles and animations to create the moving background effect.
