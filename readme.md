@@ -6,17 +6,10 @@ Welcome to the Stellar Backgrounds repository! This project showcases a collecti
 
 This repository contains a simple HTML and CSS setup that demonstrates a beautiful moving background effect. The main focus is on creating visually appealing backgrounds that can be easily integrated into any website.
 
-## Files
-
-- `index.html`: The main HTML file that sets up the structure of the webpage.
-- `style.css`: The CSS file that contains styles for the webpage, including the background animation.
-- `star.png`: The image used for the moving star background.
-- `old_star.png`: An older version of the star image.
-- `site.webmanifest`: The web app manifest file for adding the website to the home screen on mobile devices.
-- Various favicon and icon files for different devices and screen sizes.
-
 ## Usage
+To see the background in action, visit the [live demo](https://cat-loaf.github.io/stellar-backgrounds/).
 
+Alternatively, you can clone the repository and open the `index.html` file in your web browser. The CSS file `style.css` contains all the necessary styles and animations to create the moving background effect.
 To see the background in action, simply open the `index.html` file in your web browser. The CSS file `style.css` contains all the necessary styles and animations to create the moving background effect.
 
 ## Customization
