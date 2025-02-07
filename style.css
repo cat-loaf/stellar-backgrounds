@@ -81,6 +81,6 @@ main {
     border: none;
     height: 3px;
     border-radius:5px;
-    background: linear-gradient(to right, #c6adf1, #9250c8, #c6adf1);
+    background: linear-gradient(to right, #c6adf100, #9250c8ff, #c6adf100);
     
 }
