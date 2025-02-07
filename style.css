@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    padding:0;
+    font-family: "Funnel Display", serif;
+}
+main {
+    background-color: #364a73;
+    background-image: linear-gradient(315deg, #364a73 0%, #9250c8 46%, #c6adf1 100%);
+    z-index:0;
+
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.star {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+    height:100%;
+    background-image:url('star.png');
+    opacity: 0.2;
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    animation: moveBackground 20s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -250px 100px;
+    }
+}
+
+.content {
+    background-color:#ffffffcc;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius:1em;
+    z-index:2;
+    width:20em;
+    height:20em;
+    padding:2em;
+    /* display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center; */
+    text-align: center;
+}
+.title {
+    font-size: 2em;
+    color: #364a73;
+    margin-bottom: 0.25em;
+    text-align: center;
+    font-weight:600;
+}
+.description {
+    font-size: 1em;
+    color: #364a73;
+    text-align: center;
+    line-height: 1.5;
+    margin-top:0.2em;
+}
+.content > img {
+    width: 3em;
+    height: auto;
+    border-radius: 100%;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, inset rgba(0, 0, 0, 0.1) 0px 2px 4px -1px;
+    margin-bottom: 0.5em;
+    padding:0.5em;
+}
+.content > hr {
+    border: none;
+    height: 3px;
+    border-radius:5px;
+    background: linear-gradient(to right, #c6adf1, #9250c8, #c6adf1);
+    
+}
